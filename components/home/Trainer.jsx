@@ -13,29 +13,29 @@ function Trainer() {
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur nulla doloremque aperiam obcaecati ab quibusdam a, hic veritatis quisquam?</p>
                     </div>
                 </div>
-                <div className="d-flex mt-5">
-                    <div className="trainer-item">
+                <div className="d-flex mt-5 trainer-container" >
+                    <div className="trainer-item" data-aos="fade-down" data-aos-duration="500">
                         <div className="trainer-img">
                             <Image src={trainer} alt="trainer" />
                         </div>
                         <p className="bolditalic text-uppercase m-0">Trainer </p>
                         <p>lorem ipsum</p>
                     </div>
-                    <div className="trainer-item">
+                    <div className="trainer-item" data-aos="fade-up" data-aos-duration="1000">
                         <div className="trainer-img">
                             <Image src={trainer} alt="trainer" />
                         </div>
                         <p className="bolditalic text-uppercase m-0">Trainer </p>
                         <p>lorem ipsum</p>
                     </div>
-                    <div className="trainer-item">
+                    <div className="trainer-item" data-aos="fade-down" data-aos-duration="1500">
                         <div className="trainer-img">
                             <Image src={trainer} alt="trainer" />
                         </div>
                         <p className="bolditalic text-uppercase m-0">Trainer </p>
                         <p>lorem ipsum</p>
                     </div>
-                    <div className="trainer-item">
+                    <div className="trainer-item" data-aos="fade-up" data-aos-duration="2000">
                         <div className="trainer-img">
                             <Image src={trainer} alt="trainer" />
                         </div>

@@ -1,6 +1,8 @@
 import { BiSolidChevronRight, BiSolidChevronLeft } from 'react-icons/bi'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useRef, useCallback } from 'react';
+import attire from '../../public/images/attire.png'
+import Image from 'next/image';
 
 function Attire() {
 
@@ -38,35 +40,49 @@ function Attire() {
                     slidesPerView={3}
                     className='mt-5'
                     loop
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 50,
+                        },
+                    }}
                 >
                     <SwiperSlide>
                         <div className="attire-item">
-                            <p>hello</p>
+                            <Image src={attire} alt='image' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="attire-item">
-                            <p>hello</p>
+                            <Image src={attire} alt='image' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="attire-item">
-                            <p>hello</p>
+                            <Image src={attire} alt='image' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="attire-item">
-                            <p>hello</p>
+                            <Image src={attire} alt='image' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="attire-item">
-                            <p>hello</p>
+                            <Image src={attire} alt='image' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="attire-item">
-                            <p>hello</p>
+                            <Image src={attire} alt='image' />
                         </div>
                     </SwiperSlide>
 

@@ -9,14 +9,14 @@ function Features() {
         <section className="features">
             <div className="container">
                 <div className="d-flex justify-content-center">
-                    <div className="col-4">
+                    <div className="col-lg-4 col-sm-12">
                         <p className="bolditalic">OUR  FEATURES</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus eaque dolorum </p>
                     </div>
                 </div>
 
-                <div className="d-flex justify-content-center my-5">
-                    <div className="feature-item">
+                <div className="d-flex justify-content-center my-5 row">
+                    <div className="feature-item" data-aos="fade-left" data-aos-duration="500">
                         <div className="d-flex justify-content-between">
                             <Image src={img1} alt="image" />
                             <p className="number">01</p>
@@ -24,7 +24,7 @@ function Features() {
                         <p className="fw-bold">FREE CONSULTATION</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio vel nostrum nisi. Minima praesentium error voluptatibus nemo, vel labore?</p>
                     </div>
-                    <div className="feature-item">
+                    <div className="feature-item" data-aos="fade-left" data-aos-duration="1500">
                         <div className="d-flex justify-content-between">
                             <Image src={img2} alt="image" />
                             <p className="number">02</p>
@@ -32,7 +32,7 @@ function Features() {
                         <p className="fw-bold">EXCELLENT SERVICE</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio vel nostrum nisi. Minima praesentium error voluptatibus nemo, vel labore?</p>
                     </div>
-                    <div className="feature-item">
+                    <div className="feature-item" data-aos="fade-left" data-aos-duration="2000">
                         <div className="d-flex justify-content-between">
                             <Image src={img3} alt="image" />
                             <p className="number">03</p>
@@ -40,7 +40,7 @@ function Features() {
                         <p className="fw-bold">BEST TRAINERS</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio vel nostrum nisi. Minima praesentium error voluptatibus nemo, vel labore?</p>
                     </div>
-                    <div className="feature-item">
+                    <div className="feature-item" data-aos="fade-left" data-aos-duration="2500">
                         <div className="d-flex justify-content-between">
                             <Image src={img4} alt="image" />
                             <p className="number">04</p>
