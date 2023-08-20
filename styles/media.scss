@@ -1,0 +1,344 @@
+@media (max-width: 590px) {
+    .homebanner {
+        padding: 1.5rem;
+
+        .navbar {
+            margin-top: 2rem;
+
+            .navbar-container {
+                .nav-center {
+                    display: none !important;
+                }
+
+                .nav-side {
+                    display: none !important;
+                }
+            }
+
+        }
+
+        .banner-text {
+            padding: 3rem 1rem;
+            margin-top: 2rem;
+
+            .redtext {
+                font-size: 16px;
+            }
+
+            .bigtext {
+                font-size: 20px;
+            }
+
+            .mediumtext {
+                font-size: 20px;
+            }
+
+            .blackpill {
+                padding: 1rem;
+
+                p,
+                b {
+                    font-size: 14px;
+                }
+
+                img {
+                    display: none;
+                }
+            }
+
+            .borderpill {
+                width: 80vw;
+                padding: 2.5rem;
+                top: 30rem;
+                left: -0.5rem;
+            }
+        }
+    }
+
+    .about-orca {
+        padding: 2rem;
+
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+
+            .about-text {
+                margin: 1rem;
+
+                .bolditalic {
+                    font-size: 30px;
+                }
+
+                .redbtn {
+                    margin: auto;
+                }
+            }
+
+            .about-video {
+                margin-top: 3rem;
+
+                .video-container {}
+            }
+        }
+    }
+
+    .attire {
+        padding: 1.5rem;
+
+        .bolditalic {
+            font-size: 30px;
+        }
+
+        .align-self-end {
+            display: flex;
+            justify-content: start;
+        }
+
+        .attire-item {
+            margin: 2rem auto;
+            padding: 1rem;
+            height: 350px;
+            width: 300px;
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+
+    .orca-trainer {
+        padding: 2rem;
+
+        .bolditalic {
+            font-size: 30px;
+        }
+
+        .trainer-container {
+            overflow-y: scroll;
+
+            .trainer-item {
+                margin: 1rem;
+
+                .trainer-img {
+                    height: 300px;
+                    width: 200px;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+
+    .schedules {
+        padding: 2rem;
+
+        .bolditalic {
+            font-size: 30px;
+        }
+
+        .table-container {
+            overflow-y: scroll;
+
+            img {
+                display: none;
+            }
+
+            table {
+                table-layout: fixed;
+
+                thead {
+                    tr {
+                        th {
+                            width: 200px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .features {
+        padding: 2rem;
+
+        .bolditalic {
+            font-size: 30px;
+        }
+    }
+
+
+    .testimonial {
+        padding: 2rem;
+
+        .bolditalic {
+            font-size: 30px;
+        }
+
+        .testimonial-item {
+            margin: 4rem auto;
+        }
+
+        .col-lg-4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .add-card {
+            margin: 1rem;
+        }
+    }
+
+    .orca-news {
+        padding: 2rem;
+
+        .bolditalic {
+            font-size: 30px;
+        }
+
+        .news-card {
+            margin: auto;
+
+            img {
+                width: 280px;
+            }
+        }
+    }
+
+    .footer {
+        padding: 4rem 2rem;
+
+        .alertbar {
+            width: 90vw;
+        }
+
+        .footer-links {
+            width: 90vw;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+@media (min-width: 560px) and (max-width: 990px) {
+    .homebanner {
+        .navbar {
+            .nav-side {
+                display: none !important;
+            }
+
+            .navbar-toggler {
+                display: none;
+            }
+        }
+
+        .banner-text {
+            .borderpill {
+                width: 70vw;
+                top: 40rem;
+                left: 6rem;
+            }
+        }
+    }
+
+    .about-orca {
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+
+
+            .about-text {
+                margin: 3rem 0rem;
+            }
+
+            .about-video {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    .attire {
+        .attire-item {
+            padding: 1rem;
+            height: 350px;
+            width: 300px;
+        }
+    }
+
+    .orca-trainer {
+        .trainer-container {
+            overflow-x: scroll;
+
+            .trainer-item {
+                margin: 1rem;
+
+                .trainer-img {
+                    height: 350px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    .schedules {
+        .table-container {
+            overflow-x: scroll;
+
+            img {
+                display: none;
+            }
+
+            table {
+                table-layout: fixed;
+
+                thead {
+                    tr {
+                        th {
+                            width: 200px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .features {
+        padding: 4rem 2rem;
+
+        .my-5 {
+            margin: 0 !important;
+        }
+    }
+
+    .testimonial {
+        padding: 5rem 1rem 1rem 1rem;
+
+        .testimonial-item {
+            width: 300px;
+        }
+
+        .col-lg-4 {
+            display: flex;
+            justify-content: center;
+
+            .add-card {
+                margin: 3rem;
+            }
+        }
+    }
+
+    .footer {
+        padding: 5rem;
+
+        .alertbar,
+        .footer-links {
+            width: 90vw;
+        }
+    }
+}

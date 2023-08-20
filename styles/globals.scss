@@ -52,6 +52,10 @@ body {
   align-items: center;
 }
 
+.whitetext {
+  color: white;
+}
+
 
 .redbtn {
   background-color: var(--red);
@@ -90,6 +94,18 @@ body {
   left: 50%;
   width: 100%;
   transform: translate(-50%, -10%);
+
+  #navbarSupportedContent {
+    display: none !important;
+  }
+
+  .navbar-container {
+    margin: auto;
+    min-width: 73vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   .nav-center {
 
@@ -186,13 +202,69 @@ body {
 }
 
 .about-orca {
-  padding: 3rem;
   background-image: url(../public/images/section1.png);
   background-size: cover;
   background-repeat: no-repeat;
 
+  .about-video {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+    .video-container {
+      width: 500px;
+      height: 620px;
+      border-radius: 300px 300px 0px 0px;
+      background-image: url(../public/images/about-video.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: relative;
+
+      .playbtn {
+        border-radius: 50%;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--red);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        outline: none;
+        border: none;
+        animation-name: ripple;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+      }
+    }
+  }
+
+
+
+  @keyframes ripple {
+
+    0% {
+      box-shadow: 0 0 0 0 #e800009c;
+    }
+
+    80% {
+      box-shadow: 0 0 0 15px #e800009c;
+    }
+
+    100% {
+      box-shadow: 0 0 0 15px #e800009c;
+    }
+
+  }
+
+
+
+
+
   .about-text {
-    margin: 5rem 0rem;
+    margin: 8rem 0rem 5rem 0rem;
     color: white;
     font-weight: 300;
 
@@ -218,6 +290,11 @@ body {
 
 }
 
+
+
+
+
+
 .attire {
   padding: 5rem;
 
@@ -238,7 +315,10 @@ body {
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(232, 0, 0, 0.15);
     padding: 2rem;
-    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
     width: 350px;
     margin: 1rem;
 
@@ -296,6 +376,50 @@ body {
 
   .bolditalic {
     font-size: 45px;
+  }
+
+  .table-container {
+    background-color: black;
+    display: flex;
+    margin: 2rem 0rem;
+    border-radius: 10px;
+
+    img {
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    table {
+      margin: 1rem;
+
+      thead {
+        tr {
+          th {
+            background-color: var(--red);
+            color: white;
+            padding: 1rem;
+            font-weight: 400;
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            padding: 1rem;
+            background-color: white;
+            color: black;
+            font-weight: 400;
+            border: 1px solid lightgray;
+            font-size: 14px;
+
+            &:hover {
+              color: var(--red);
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -367,6 +491,7 @@ body {
       top: -3.5rem;
       right: 2rem;
       border-radius: 300px;
+
     }
   }
 
@@ -381,9 +506,11 @@ body {
     align-items: end;
 
     .bolditalic {
-      font-size: 25px;
+      font-size: 20px;
       color: white;
-      margin: 1rem;
+      margin: 1rem 1rem 3rem 1rem;
+      border-top: 1px solid var(--red);
+      border-bottom: 1px solid var(--red);
     }
 
 
@@ -418,5 +545,64 @@ body {
     justify-content: space-between;
     margin: 3rem 0rem;
   }
+
+}
+
+.orca-news {
+  padding: 5rem;
+  text-align: center;
+
+  .bolditalic {
+    font-size: 45px;
+    color: black;
+  }
+
+  .news-card {
+    height: 350px;
+    padding: 1rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    margin: 1.5rem;
+    position: relative;
+    cursor: pointer;
+
+    .fw-bold {
+      font-size: 18px;
+    }
+
+    .date-tag {
+      background-color: var(--red);
+      color: white;
+      padding: 0.3rem 0.7rem;
+      border-radius: 5px;
+      position: absolute;
+      top: 2rem;
+      font-size: 14px;
+      left: 2rem;
+    }
+
+    img {
+      border-radius: 5px;
+      width: 300px;
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+}
+
+.scrolltotop {
+  position: fixed;
+  bottom: 3rem;
+  z-index: 9;
+  right: 3rem;
+  background-color: var(--red);
+  border-radius: 100px;
+  padding: 2px;
+  width: 35px;
+  height: 35px;
+  color: white;
 
 }

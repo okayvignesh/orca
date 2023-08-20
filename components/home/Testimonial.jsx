@@ -39,13 +39,27 @@ function Testimonial() {
                 </div>
 
                 <div className="row">
-                    <div className="col-8">
+                    <div className="col-lg-8 col-sm-12">
                         <Swiper
                             ref={swiperRef}
                             spaceBetween={50}
                             slidesPerView={2}
                             className='mt-5'
                             loop
+                            breakpoints={{
+                                320: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 40,
+                                },
+                                1024: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 50,
+                                },
+                            }}
                         >
                             <SwiperSlide>
                                 <div className="testimonial-item">
@@ -120,7 +134,7 @@ function Testimonial() {
                         </Swiper>
                     </div>
                     <div className="col-lg-4">
-                        <div className="add-card">
+                        <div className="add-card" data-aos="fade-left" data-aos-duration="800">
                             <p className='bolditalic'>MASTER UPPER CUT</p>
                         </div>
                     </div>
