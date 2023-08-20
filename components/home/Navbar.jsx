@@ -1,15 +1,16 @@
 import { BsArrowRightShort } from 'react-icons/bs'
 import menu from '../../public/icons/menu.svg'
+import logo from '../../public/images/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
 function Navbar() {
     return (
         <section className="navbar navbar-expand-lg">
-            <div class="container d-flex justify-content-between">
-                <a class="navbar-brand" href="#">Logo</a>
-
-
+            <div class="navbar-container">
+                <a class="navbar-brand" href="/">
+                    <Image src={logo} alt='logo' width={150} />
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -23,7 +24,7 @@ function Navbar() {
                     <Link href='/'>TRAINING</Link>
                 </div>
 
-                <div className="d-flex align-items-center">
+                <div className="d-flex align-items-center whitetext nav-side">
                     <div className="nav-item">
                         <p className="text-uppercase fst-italic fw-bold">Call Us Free</p>
                         <p>+65 3259 36523</p>
