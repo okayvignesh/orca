@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🏆 Orca Sports Company - Stunning Sports Website with Next.js 🏀
 
-## Getting Started
+Welcome to the official repository of the Orca Sports Company website! Immerse yourself in a visually captivating sports experience. Our Next.js powered static website brings you the best in sports, showcased through a beautifully designed UI and delightful animations.
 
-First, run the development server:
+🔗 [Live Demo](https://orca-ten.vercel.app/)
+(Note: The above link directs you to the live demo hosted on Vercel.)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+🚀 Key Highlights:
+- Aesthetically pleasing UI with meticulous attention to design.
+- Engaging animations that enhance user interaction.
+- Seamlessly navigable platform to explore a world of sports.
+- Performance optimized with Next.js for swift loading.
+- Sass-powered styles and Bootstrap components for a modern look.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Tech Stack:
+- Frontend: Next.js, Sass, Bootstrap
+- Deployment: Vercel
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+📁 Repository Structure:
+- `src/`: Main source code for the Next.js application.
+- `public/`: Static assets like images and fonts.
+- `styles/`: Sass stylesheets for custom styling.
+- `components/`: Reusable UI components and layout elements.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+👨‍💻 How to Contribute:
+Join us in making this website even more captivating! If you're inspired to enhance visuals, add animations, or contribute in any way, follow these steps:
+1. Fork this repository and clone it to your local machine.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Make changes and commit them: `git commit -m "Add your message here"`.
+4. Push changes to your forked repository: `git push origin feature/your-feature-name`.
+5. Open a pull request to this repository's `main` branch.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+📧 Contact Us:
+Questions or feedback? Reach me out at okayvignesh12@gmail.com.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
