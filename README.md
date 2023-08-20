@@ -1,5 +1,8 @@
 🏆 Orca Sports Company - Stunning Sports Website with Next.js 🏀
 
+![image](https://github.com/okayvignesh/orca/assets/110383556/e8f215c8-ac7e-4f25-8df7-e6322727dfa3)
+
+
 Welcome to the official repository of the Orca Sports Company website! Immerse yourself in a visually captivating sports experience. Our Next.js powered static website brings you the best in sports, showcased through a beautifully designed UI and delightful animations.
 
 🔗 [Live Demo](https://orca-ten.vercel.app/)
